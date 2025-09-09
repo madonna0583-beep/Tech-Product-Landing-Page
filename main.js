@@ -1,17 +1,10 @@
-var themeBtn = document.querySelector(".btn.bg-dark");
-var theme = "light";
-
+var themeBtn = document.querySelector(".theme-toggle-btn");
 
 themeBtn.addEventListener("click", function () {
-  if (theme === "light") {
-    document.body.style.backgroundColor = "black";
-    document.body.style.color = "white";
-    themeBtn.innerHTML = "Light Mode";
-    theme = "dark";
+  document.body.classList.toggle("dark-theme");
+  if (document.body.classList.contains("dark-theme")) {
+    themeBtn.textContent = "Light Mode";
   } else {
-    document.body.style.backgroundColor = "white";
-    document.body.style.color = "black";
-    themeBtn.innerHTML = "Dark Mode";
-    theme = "light";
+    themeBtn.textContent = "Dark Mode";
   }
 });
