@@ -1,8 +1,7 @@
-// المتغيرات
 var themeBtn = document.querySelector(".btn.bg-dark");
 var theme = "light";
 
-// لما تدوسي على الزر
+
 themeBtn.addEventListener("click", function () {
   if (theme === "light") {
     document.body.style.backgroundColor = "black";
