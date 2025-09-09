@@ -1,0 +1,78 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: linear-gradient(360deg, #4B6BFB 0%, #6A0DAD 100%);
+    padding: 10px;
+}
+
+
+.Hero-Section {
+    background: linear-gradient(180deg, #4B6BFB 0%, #6A0DAD 100%);
+    height: 75vh;
+    padding-top: 80px;
+    color: white;
+}
+
+#feature .card {
+  border: none;
+  border-radius: 10px;
+  background: #1e1e1e;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+#feature .card:hover {
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+}
+
+#pricing .card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+#pricing .card:hover {
+  transform: translateY(-8px);
+}
+
+#pricing .highlight {
+  border: 2px solid #4B6BFB;
+  background: rgba(75, 107, 251, 0.1);
+}
+
+#testimonials .card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+#testimonials .card:hover {
+  transform: translateY(-8px);
+}
+
+
+.starting {
+  background: linear-gradient(180deg, #4B6BFB 0%, #6A0DAD 100%);
+}
+
+
+.section-divider {
+  width: 50%;
+  height: 2px;
+  background-color: rgba(177, 171, 171, 0.3); 
+  margin: 0 auto;
+}
+
+
+
+
+
